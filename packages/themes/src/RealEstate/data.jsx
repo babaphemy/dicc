@@ -569,7 +569,7 @@ export default {
         },
         {
           icon: Phone,
-          text: '+234 08061242039',
+          text: '+234 08033338227',
         },
         {
           icon: Envelope,
