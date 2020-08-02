@@ -2,7 +2,7 @@ import React from 'react';
 
 import WebGrid from '@pagerland/icons/src/line/WebGrid';
 import BedDouble from '@pagerland/icons/src/line/BedDouble';
-import Bath from '@pagerland/icons/src/line/Bath';
+import University from '@pagerland/icons/src/line/University';
 import CarSideview from '@pagerland/icons/src/line/CarSideview';
 import Plane from '@pagerland/icons/src/line/Plane';
 import TrainTunnel from '@pagerland/icons/src/line/TrainTunnel';
@@ -78,35 +78,25 @@ import gallery13 from './assets/gallery/gallery-13.jpg';
 import gallery14 from './assets/gallery/gallery-14.jpg';
 import gallery15 from './assets/gallery/gallery-15.jpg';
 import gallery1Thumbnail from './assets/gallery/thumbnails/gallery-1.jpg';
-import gallery12xThumbnail from './assets/gallery/thumbnails/gallery-1@2x.jpg';
 import gallery2Thumbnail from './assets/gallery/thumbnails/gallery-2.jpg';
-import gallery22xThumbnail from './assets/gallery/thumbnails/gallery-2@2x.jpg';
 import gallery3Thumbnail from './assets/gallery/thumbnails/gallery-3.jpg';
-import gallery32xThumbnail from './assets/gallery/thumbnails/gallery-3@2x.jpg';
 import gallery4Thumbnail from './assets/gallery/thumbnails/gallery-4.jpg';
-import gallery42xThumbnail from './assets/gallery/thumbnails/gallery-4@2x.jpg';
 import gallery5Thumbnail from './assets/gallery/thumbnails/gallery-5.jpg';
-import gallery52xThumbnail from './assets/gallery/thumbnails/gallery-5@2x.jpg';
 import gallery6Thumbnail from './assets/gallery/thumbnails/gallery-6.jpg';
-import gallery62xThumbnail from './assets/gallery/thumbnails/gallery-6@2x.jpg';
 import gallery7Thumbnail from './assets/gallery/thumbnails/gallery-7.jpg';
-import gallery72xThumbnail from './assets/gallery/thumbnails/gallery-7@2x.jpg';
 import gallery8Thumbnail from './assets/gallery/thumbnails/gallery-8.jpg';
-import gallery82xThumbnail from './assets/gallery/thumbnails/gallery-8@2x.jpg';
 import gallery9Thumbnail from './assets/gallery/thumbnails/gallery-9.jpg';
-import gallery92xThumbnail from './assets/gallery/thumbnails/gallery-9@2x.jpg';
 import gallery10Thumbnail from './assets/gallery/thumbnails/gallery-10.jpg';
-import gallery102xThumbnail from './assets/gallery/thumbnails/gallery-10@2x.jpg';
 import gallery11Thumbnail from './assets/gallery/thumbnails/gallery-11.jpg';
-import gallery112xThumbnail from './assets/gallery/thumbnails/gallery-11@2x.jpg';
+import gallery112xThumbnail from './assets/gallery/gallery-11.jpg';
 import gallery12Thumbnail from './assets/gallery/thumbnails/gallery-12.jpg';
-import gallery122xThumbnail from './assets/gallery/thumbnails/gallery-12@2x.jpg';
+import gallery122xThumbnail from './assets/gallery/gallery-12.jpg';
 import gallery13Thumbnail from './assets/gallery/thumbnails/gallery-13.jpg';
-import gallery132xThumbnail from './assets/gallery/thumbnails/gallery-13@2x.jpg';
+import gallery132xThumbnail from './assets/gallery/gallery-13.jpg';
 import gallery14Thumbnail from './assets/gallery/thumbnails/gallery-14.jpg';
-import gallery142xThumbnail from './assets/gallery/thumbnails/gallery-14@2x.jpg';
+import gallery142xThumbnail from './assets/gallery/gallery-14.jpg';
 import gallery15Thumbnail from './assets/gallery/thumbnails/gallery-15.jpg';
-import gallery152xThumbnail from './assets/gallery/thumbnails/gallery-15@2x.jpg';
+import gallery152xThumbnail from './assets/gallery/gallery-15.jpg';
 
 import property1 from './assets/similar-properties/property-1.jpg';
 import property12x from './assets/similar-properties/property-1@2x.jpg';
@@ -119,7 +109,7 @@ import contactImg from './assets/contact.jpg';
 import contactImg2x from './assets/contact@2x.jpg';
 
 export default {
-  title: 'Real Estate',
+  title: 'Dabar Intl Christian Center',
   navbar: {
     links: [
       {
@@ -133,24 +123,14 @@ export default {
         label: 'About',
       },
       {
-        to: 'location',
-        'data-to': 'location',
-        label: 'Location',
-      },
-      {
-        to: 'exterior',
-        'data-to': 'exterior',
-        label: 'Exterior',
-      },
-      {
         to: 'interior',
         'data-to': 'interior',
-        label: 'Interior',
+        label: 'Projects',
       },
       {
         to: 'surroundings',
         'data-to': 'surroundings',
-        label: 'Surroundings',
+        label: 'Ministry',
       },
       {
         to: 'gallery',
@@ -166,8 +146,8 @@ export default {
     actions: [
       {
         href:
-          'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
-        label: 'Buy theme',
+          '',
+        label: 'Donate',
       },
     ],
   },
@@ -175,34 +155,34 @@ export default {
     background: {
       src: background,
       srcSet: `${background} 1x, ${background2x} 2x`,
-      alt: 'Real Estate',
+      alt: 'DICC',
     },
-    title: 'Beautiful modern villa in sunny California',
-    price: '$2,400,000',
+    title: 'Welcome to Darbar Int Christian Center',
+    price: 'DICC',
     features: [
       {
         IconProps: {
           icon: WebGrid,
         },
-        title: '5 800 sq. ft.',
+        title: 'Evangelistic',
       },
       {
         IconProps: {
           icon: BedDouble,
         },
-        title: '7 bedrooms',
+        title: 'Apostolic',
       },
       {
         IconProps: {
-          icon: Bath,
+          icon: University,
         },
-        title: '4 bathrooms',
+        title: 'Word Based',
       },
       {
         IconProps: {
           icon: CarSideview,
         },
-        title: '2 cars garage',
+        title: 'Home for all',
       },
     ],
     cta: {
@@ -211,9 +191,9 @@ export default {
     },
   },
   about: {
-    title: 'We introduce you a beautiful and bright and sunny house designed by Leonardo Piazzo',
+    title: 'Dabar International Christian Centre (DICC) has been operating in the country since 1990 even before it became a registered entity',
     text:
-      'Integer vulputate turpis nisl, non auctor sapien accumsan semper. Praesent in pulvinar nisl. Nullam turpis sem, commodo vel congue accumsan, finibus ut nulla. Nunc a efficitur massa. Nulla viverra tincidunt felis, vel sodales metus maximus et. Suspendisse potenti. Donec tincidunt leo nisi, vitae rhoncus neque accumsan vitae.',
+      'Over the years, the Foundation has grown tremendously with great successes in organized village outreaches, conferences, and countless of non-profit initiatives to the benefit of humanity. The foundation has great advantage as a non-denominational group, covering different local churches, denominations and non-denominational assemblies spread across the length and breadth of the nation. Whereas, the primary objective of DICC is to share God’s love in Christ Jesus with all men through preaching, teaching and healing ministries, we also engage in social work to the socially marginalized and provide relief to people in adverse situations.',
     gallery: [
       {
         source: aboutLarge1,
@@ -378,9 +358,9 @@ export default {
             srcSet: `${interior2} 1x, ${interior22x} 2x`,
           },
         ],
-        title: 'Amazing living and dining room',
+        title: 'Interdenominational Faith Meeting',
         text:
-          'Vestibulum sed elit id mauris tempus feugiat vel vitae neque. Integer eleifend est orci, quis convallis sem malesuada id. Phasellus fringilla urna vitae lobortis auctor. Vivamus sed nisi non nulla tincidunt ultricies a non ex. Praesent commodo dui enim, at volutpat lectus aliquet ut.',
+          'Ibadan interdenominational faith meeting 2020.',
       },
       {
         slides: [
@@ -405,9 +385,9 @@ export default {
             srcSet: `${interior1} 1x, ${interior12x} 2x`,
           },
         ],
-        title: 'Beautiful bedrooms',
+        title: 'Youth Intitiatives Operation ALFA',
         text:
-          'Vestibulum sed elit id mauris tempus feugiat vel vitae neque. Integer eleifend est orci, quis convallis sem malesuada id. Phasellus fringilla urna vitae lobortis auctor. Vivamus sed nisi non nulla tincidunt ultricies a non ex. Praesent commodo dui enim, at volutpat lectus aliquet ut.',
+          'Operation ALFA: Abundant Life for All. A program aimed at discovering, transforming and developing youths and vulnerable people in Oyo state, Nigeria',
       },
     ],
   },
@@ -418,14 +398,14 @@ export default {
           src: surrounding1,
           srcSet: `${surrounding1} 1x, ${surrounding12x} 2x`,
         },
-        title: 'Only few minutes driving to a shopping mall',
+        title: 'Music and Drama Ministry',
         text:
           'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
         cta: {
           as: 'a',
           label: 'Learn more',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '#',
         },
       },
       {
@@ -433,14 +413,14 @@ export default {
           src: surrounding2,
           srcSet: `${surrounding2} 1x, ${surrounding22x} 2x`,
         },
-        title: 'One of the best primary school and high school in the city',
+        title: 'Youth Ministry',
         text:
           'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
         cta: {
           as: 'a',
           label: 'Learn more',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '#',
         },
       },
       {
@@ -448,14 +428,14 @@ export default {
           src: surrounding3,
           srcSet: `${surrounding3} 1x, ${surrounding32x} 2x`,
         },
-        title: 'Walking distance to the park with sport and recreation areas',
+        title: 'Evangelism & Soul Winning',
         text:
           'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
         cta: {
           as: 'a',
           label: 'Learn more',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '#',
         },
       },
     ],
@@ -466,70 +446,70 @@ export default {
         source: gallery1,
         ImgProps: {
           src: gallery1Thumbnail,
-          srcSet: `${gallery1Thumbnail} 1x, ${gallery12xThumbnail} 2x`,
+          srcSet: `${gallery1Thumbnail} 1x, ${gallery1} 2x`,
         },
       },
       {
         source: gallery2,
         ImgProps: {
           src: gallery2Thumbnail,
-          srcSet: `${gallery2Thumbnail} 1x, ${gallery22xThumbnail} 2x`,
+          srcSet: `${gallery2Thumbnail} 1x, ${gallery2} 2x`,
         },
       },
       {
         source: gallery3,
         ImgProps: {
           src: gallery3Thumbnail,
-          srcSet: `${gallery3Thumbnail} 1x, ${gallery32xThumbnail} 2x`,
+          srcSet: `${gallery3Thumbnail} 1x, ${gallery3} 2x`,
         },
       },
       {
         source: gallery4,
         ImgProps: {
           src: gallery4Thumbnail,
-          srcSet: `${gallery4Thumbnail} 1x, ${gallery42xThumbnail} 2x`,
+          srcSet: `${gallery4Thumbnail} 1x, ${gallery4} 2x`,
         },
       },
       {
         source: gallery5,
         ImgProps: {
           src: gallery5Thumbnail,
-          srcSet: `${gallery5Thumbnail} 1x, ${gallery52xThumbnail} 2x`,
+          srcSet: `${gallery5Thumbnail} 1x, ${gallery5} 2x`,
         },
       },
       {
         source: gallery6,
         ImgProps: {
           src: gallery6Thumbnail,
-          srcSet: `${gallery6Thumbnail} 1x, ${gallery62xThumbnail} 2x`,
+          srcSet: `${gallery6Thumbnail} 1x, ${gallery6} 2x`,
         },
       },
       {
         source: gallery7,
         ImgProps: {
           src: gallery7Thumbnail,
-          srcSet: `${gallery7Thumbnail} 1x, ${gallery72xThumbnail} 2x`,
+          srcSet: `${gallery7Thumbnail} 1x, ${gallery7} 2x`,
         },
       },
       {
         source: gallery8,
         ImgProps: {
           src: gallery8Thumbnail,
-          srcSet: `${gallery8Thumbnail} 1x, ${gallery82xThumbnail} 2x`,
+          srcSet: `${gallery8Thumbnail} 1x, ${gallery8} 2x`,
         },
       },
       {
         source: gallery9,
         ImgProps: {
           src: gallery9Thumbnail,
-          srcSet: `${gallery9Thumbnail} 1x, ${gallery92xThumbnail} 2x`,
+          srcSet: `${gallery9Thumbnail} 1x, ${gallery9} 2x`,
         },
       },
       {
         source: gallery10,
         ImgProps: {
           src: gallery10Thumbnail,
-          srcSet: `${gallery10Thumbnail} 1x, ${gallery102xThumbnail} 2x`,
+          srcSet: `${gallery10Thumbnail} 1x, ${gallery10} 2x`,
         },
       },
       {
@@ -576,56 +556,56 @@ export default {
       srcSet: `${contactImg} 1x, ${contactImg2x} 2x`,
     },
     details: {
-      title: 'Contact Andrea Colman to organise a viewing',
+      title: 'We are always available ',
       text:
-        'Andrea Colman is one of our top agents. She has 10 years of experience in California real estate market and sold estates of total value of $32,000,000.',
+        'Share your prayer points with us, we have a dedicated prayer team that will pray with you. Have any questions? ask us directly, we respond swiftly.',
       info: [
         {
           icon: User,
-          text: 'Andrea Colman',
+          text: 'Ojelabi Babatunde',
         },
         {
           icon: Building,
-          text: 'California Real Estates',
+          text: 'Secretary',
         },
         {
           icon: MapMarker,
-          text: textToMultiline`693 Woodland St.\nSan Francisco, CA 94110`,
+          text: textToMultiline`No 32, Ojoo-UI express road.\nOpposite NISER fence, Orogun, Ibadan, Oyo state, Nigeria`,
         },
         {
           icon: Phone,
-          text: '+1 234 567 890',
+          text: '+234 08061242039',
         },
         {
           icon: Envelope,
-          text: 'andrea@californiarealestates.com',
+          text: 'dabarcentre@gmail.com',
         },
       ],
       socialLinks: [
         {
           icon: FacebookF,
-          href: 'https://mypags.app',
+          href: 'https://facebook.com/dabar',
           title: 'Facebook',
         },
         {
           icon: Twitter,
-          href: 'https://mypags.app',
+          href: 'https://twitter.com/@dicc',
           title: 'Twitter',
         },
         {
           icon: Instagram,
-          href: 'https://mypags.app',
+          href: 'https://instagram.com/dabar',
           title: 'Instagram',
         },
         {
           icon: Linkedin,
-          href: 'https://mypags.app',
+          href: 'https://linkedin.com/in/dabar',
           title: 'Linkedin',
         },
       ],
     },
     form: {
-      title: 'Send me a message and I will call you back',
+      title: 'Send us message, ask us a question, share a prayer point',
       sendButtonText: 'Send',
       validationSchema: Yup.object({
         firstName: Yup.string().max(15, 'Must be 15 characters or less').required('Required'),
@@ -633,7 +613,7 @@ export default {
         message: Yup.string().min(20, 'Must be at least 20 characters').required('Required'),
       }),
       // eslint-disable-next-line no-undef
-      onSubmit: values => window.alert(`Form sent with values ${JSON.stringify(values)}`),
+      onSubmit: values => window.alert(`Message sent ${JSON.stringify(values)}`),
       fields: [
         {
           name: 'firstName',
@@ -678,7 +658,7 @@ export default {
         LinkProps: {
           as: 'a',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '1600x1200 600x450',
         },
         title: 'Villa with two terraces, swimming pool and beauitiful garden',
         price: '$3,450,000',
@@ -697,7 +677,7 @@ export default {
           },
           {
             IconProps: {
-              icon: Bath,
+              icon: University,
             },
             title: '3 bathrooms',
           },
@@ -736,7 +716,7 @@ export default {
           },
           {
             IconProps: {
-              icon: Bath,
+              icon: University,
             },
             title: '4 bathrooms',
           },
@@ -775,7 +755,7 @@ export default {
           },
           {
             IconProps: {
-              icon: Bath,
+              icon: University,
             },
             title: '3 bathrooms',
           },
@@ -790,20 +770,20 @@ export default {
     ],
   },
   footer: {
-    title: 'About California Real Estates',
+    title: 'About DICC',
     text: textToMultiline`Cras sollicitudin erat sit amet egestas consequat. Quisque in purus sem. Integer condimentum nulla vel velit pretium, eget fringilla enim sodales. Nullam sit amet leo vitae mi laoreet varius eu vel est.\n\nMaecenas non lectus tincidunt, sodales leo pulvinar, condimentum urna. Fusce sed dui nec tortor tincidunt ultricies. Proin at convallis felis, sit amet varius velit.`,
     cta: {
       as: 'a',
       label: 'Learn more',
       href:
-        'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+        '#',
     },
     features: [
       {
         IconProps: {
           icon: TagAlt,
         },
-        title: 'Best price on the market',
+        title: 'Raising Champions',
         text:
           'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
       },
@@ -811,7 +791,7 @@ export default {
         IconProps: {
           icon: ThumbsUp,
         },
-        title: 'Satisfaction guarantee',
+        title: 'Building leaders',
         text:
           'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
       },
@@ -819,7 +799,7 @@ export default {
         IconProps: {
           icon: ShieldCheck,
         },
-        title: 'Safety policy',
+        title: 'Spiritual Upliftment',
         text:
           'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
       },
@@ -827,7 +807,7 @@ export default {
         IconProps: {
           icon: Award,
         },
-        title: 'Award winning company',
+        title: 'BibleBelieving',
         text:
           'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
       },
@@ -835,30 +815,30 @@ export default {
     socialLinks: [
       {
         icon: FacebookF,
-        href: 'https://mypags.app',
+        href: 'https://facebook.com/dicc',
         title: 'Facebook',
       },
       {
         icon: Twitter,
-        href: 'https://mypags.app',
+        href: 'https://twitter.com/@dicc',
         title: 'Twitter',
       },
       {
         icon: Instagram,
-        href: 'https://mypags.app',
+        href: 'https://instagram.com/dicc',
         title: 'Instagram',
       },
       {
         icon: Youtube,
-        href: 'https://mypags.app',
+        href: 'https://youtube.com/#',
         title: 'YouTube',
       },
       {
         icon: Linkedin,
-        href: 'https://mypags.app',
+        href: 'https://linkedin.com/in/',
         title: 'Linkedin',
       },
     ],
   },
-  copyright: '© 2020 Coffeecream Themes',
+  copyright: '© 2020 ESSL Developers',
 };

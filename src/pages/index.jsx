@@ -8,13 +8,10 @@ import {
   Navbar,
   Welcome,
   About,
-  Location,
-  Exterior,
   Interior,
   Surroundings,
   Gallery,
   Contact,
-  SimilarProperties,
   Footer,
 } from '@pagerland/themes/src/RealEstate/containers';
 
@@ -29,18 +26,15 @@ const RealEstate = ({ url }) => (
       <meta name="theme-color" content={theme.colors.primary} />
       <meta property="og:image" content={`${url}${preview}`} />
     </Helmet>
-    <SEO title="Real Estate" />
+    <SEO title="DICC" />
 
     <Navbar />
     <Welcome name="" />
     <About name="about" />
-    <Location name="location" />
-    <Exterior name="exterior" />
     <Interior name="interior" />
     <Surroundings name="surroundings" />
     <Gallery name="gallery" />
     <Contact name="contact" />
-    <SimilarProperties name="similar-properties" />
     <Footer name="about-us" />
   </Theme>
 );
@@ -50,7 +44,7 @@ RealEstate.propTypes = {
 };
 
 RealEstate.defaultProps = {
-  url: 'https://mypags.app/gatsby/',
+  url: '#',
 };
 
 export default RealEstate;
