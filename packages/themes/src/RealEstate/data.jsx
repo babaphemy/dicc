@@ -51,16 +51,11 @@ import exterior2 from './assets/exteriors/exterior-2.jpg';
 import exterior22x from './assets/exteriors/exterior-2@2x.jpg';
 
 import interior1 from './assets/interiors/interior-1.jpg';
-import interior12x from './assets/interiors/interior-1@2x.jpg';
 import interior2 from './assets/interiors/interior-2.jpg';
-import interior22x from './assets/interiors/interior-2@2x.jpg';
 
 import surrounding1 from './assets/surroundings/surroundings-1.jpg';
-import surrounding12x from './assets/surroundings/surroundings-1@2x.jpg';
 import surrounding2 from './assets/surroundings/surroundings-2.jpg';
-import surrounding22x from './assets/surroundings/surroundings-2@2x.jpg';
 import surrounding3 from './assets/surroundings/surroundings-3.jpg';
-import surrounding32x from './assets/surroundings/surroundings-3@2x.jpg';
 
 import gallery1 from './assets/gallery/gallery-1.jpg';
 import gallery2 from './assets/gallery/gallery-2.jpg';
@@ -339,23 +334,23 @@ export default {
         slides: [
           {
             src: interior2,
-            srcSet: `${interior2} 1x, ${interior22x} 2x`,
+            srcSet: `${gallery5} 1x, ${gallery5} 2x`,
           },
           {
             src: interior2,
-            srcSet: `${interior2} 1x, ${interior22x} 2x`,
+            srcSet: `${gallery4} 1x, ${gallery4} 2x`,
           },
           {
             src: interior2,
-            srcSet: `${interior2} 1x, ${interior22x} 2x`,
+            srcSet: `${gallery13} 1x, ${gallery13} 2x`,
           },
           {
             src: interior2,
-            srcSet: `${interior2} 1x, ${interior22x} 2x`,
+            srcSet: `${gallery14} 1x, ${gallery14} 2x`,
           },
           {
             src: interior2,
-            srcSet: `${interior2} 1x, ${interior22x} 2x`,
+            srcSet: `${gallery1} 1x, ${gallery1} 2x`,
           },
         ],
         title: 'Interdenominational Faith Meeting',
@@ -366,23 +361,23 @@ export default {
         slides: [
           {
             src: interior1,
-            srcSet: `${interior1} 1x, ${interior12x} 2x`,
+            srcSet: `${gallery1} 1x, ${gallery1} 2x`,
           },
           {
             src: interior1,
-            srcSet: `${interior1} 1x, ${interior12x} 2x`,
+            srcSet: `${gallery4} 1x, ${gallery4} 2x`,
           },
           {
             src: interior1,
-            srcSet: `${interior1} 1x, ${interior12x} 2x`,
+            srcSet: `${gallery5} 1x, ${gallery5} 2x`,
           },
           {
             src: interior1,
-            srcSet: `${interior1} 1x, ${interior12x} 2x`,
+            srcSet: `${gallery13} 1x, ${gallery13} 2x`,
           },
           {
             src: interior1,
-            srcSet: `${interior1} 1x, ${interior12x} 2x`,
+            srcSet: `${gallery14} 1x, ${gallery14} 2x`,
           },
         ],
         title: 'Youth Intitiatives Operation ALFA',
@@ -396,7 +391,7 @@ export default {
       {
         ImgProps: {
           src: surrounding1,
-          srcSet: `${surrounding1} 1x, ${surrounding12x} 2x`,
+          srcSet: `${gallery9} 1x, ${gallery9} 2x`,
         },
         title: 'Music and Drama Ministry',
         text:
@@ -411,7 +406,7 @@ export default {
       {
         ImgProps: {
           src: surrounding2,
-          srcSet: `${surrounding2} 1x, ${surrounding22x} 2x`,
+          srcSet: `${gallery10} 1x, ${gallery10} 2x`,
         },
         title: 'Youth Ministry',
         text:
@@ -426,7 +421,7 @@ export default {
       {
         ImgProps: {
           src: surrounding3,
-          srcSet: `${surrounding3} 1x, ${surrounding32x} 2x`,
+          srcSet: `${gallery12} 1x, ${gallery12} 2x`,
         },
         title: 'Evangelism & Soul Winning',
         text:
@@ -697,7 +692,7 @@ export default {
         LinkProps: {
           as: 'a',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '#',
         },
         title: 'Classic spanish style house with amazin mountains view',
         price: '$2,780,000',
@@ -736,7 +731,7 @@ export default {
         LinkProps: {
           as: 'a',
           href:
-            'https://themeforest.net/item/pagerland-react-and-gatsby-landing-page-templates/26548567',
+            '#',
         },
         title: 'Completely renovated ground floor villa with swimming pool',
         price: '$1,950,000',
