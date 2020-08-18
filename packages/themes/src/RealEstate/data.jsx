@@ -570,7 +570,7 @@ export default {
         {   
           icon: Phone,
           text: '+234 08033338227',
-        },ttttn[ikmngu  [.Awardk, g]]
+        },
         {
           icon: Envelope,
           text: 'dabarcentre@gmail.com',
