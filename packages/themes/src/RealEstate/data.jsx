@@ -567,10 +567,10 @@ export default {
           icon: MapMarker,
           text: textToMultiline`No 32, Ojoo-UI express road.\nOpposite NISER fence, Orogun, Ibadan, Oyo state, Nigeria`,
         },
-        {
+        {   
           icon: Phone,
           text: '+234 08033338227',
-        },
+        },ttttn[ikmngu  [.Awardk, g]]
         {
           icon: Envelope,
           text: 'dabarcentre@gmail.com',

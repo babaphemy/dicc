@@ -3,7 +3,7 @@
   "private": true,
   "description": "",
   "version": "1.0.0",
-  "author": "Pagerland Team",
+  "author": "ESSL",
   "dependencies": {
     "babel-plugin-styled-components": "1.10.7",
     "gatsby": "2.24.11",
