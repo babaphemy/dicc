@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        minify: false, // Breaks style if not set to false
+        minify: false, // Break in style if not set to false
       },
     },
     {
