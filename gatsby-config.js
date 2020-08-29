@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: 'DICC',
-    description: '',
+    description: 'Darbar International Christian Center',
     author: 'ESSL Team',
   },
   pathPrefix: process.env.GATSBY_APP_DIR || '',
