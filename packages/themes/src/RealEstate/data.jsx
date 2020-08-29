@@ -102,14 +102,14 @@ import property32x from './assets/similar-properties/property-3@2x.jpg';
 
 import contactImg from './assets/contact.jpg';
 import contactImg2x from './assets/contact@2x.jpg';
-
+import {sendMail} from './Mailer';
 export default {
   title: 'Dabar Intl Christian Center',
   navbar: {
     links: [
       {
-        to: '',
-        'data-to': '',
+        to: 'home',
+        'data-to': 'home',
         label: 'Home',
       },
       {
@@ -212,6 +212,10 @@ export default {
         },
       },
     ],
+    profile: {
+      title: 'Meet The Reverend',
+      text: 'Rev Sam Alawiye is a practical preacher of the undiluted word of God with a unique prophetic unction to bring men face to face with the reality of faith in Christ Jesus. He is practical in teaching as he is on the pulpit, so he is in his lifestyle. He is the founder of the Dabar International Christian Center ministry, Ibadan, Oyo State, Nigeria where his   ministry is being used to bless humanity through God\'s word and improve their livelihood. He is married to Moji Alawiye and blessed with four wonderful and Godfearing children.'
+    }
   },
   location: {
     title: textToMultiline`Incredible location.\nSo close to all ammenities.`,
@@ -608,26 +612,27 @@ export default {
         message: Yup.string().min(20, 'Must be at least 20 characters').required('Required'),
       }),
       // eslint-disable-next-line no-undef
-      onSubmit: values => window.alert(`Message sent ${JSON.stringify(values)}`),
+      //onSubmit: values => window.alert(`Message sent ${JSON.stringify(values)}`),
+      onSubmit: values => sendMail(values, "CONTACT FORM"),
       fields: [
         {
           name: 'firstName',
           label: 'First name',
-          placeholder: 'ie. John Doe',
+          placeholder: 'eg. John Doe',
           initialValue: '',
           prefix: <Icon icon={User} />,
         },
         {
           name: 'phone',
           label: 'Phone',
-          placeholder: 'ie. 555-678-123',
+          placeholder: 'eg. 080-123-4567',
           initialValue: '',
           prefix: <Icon icon={Phone} />,
         },
         {
           name: 'email',
           label: 'E-mail',
-          placeholder: 'ie. john.doe@email.com',
+          placeholder: 'eg. john.doe@email.com',
           type: 'email',
           initialValue: '',
           prefix: <Icon icon={Envelope} />,
@@ -766,12 +771,12 @@ export default {
   },
   footer: {
     title: 'About DICC',
-    text: textToMultiline`Cras sollicitudin erat sit amet egestas consequat. Quisque in purus sem. Integer condimentum nulla vel velit pretium, eget fringilla enim sodales. Nullam sit amet leo vitae mi laoreet varius eu vel est.\n\nMaecenas non lectus tincidunt, sodales leo pulvinar, condimentum urna. Fusce sed dui nec tortor tincidunt ultricies. Proin at convallis felis, sit amet varius velit.`,
+    text: textToMultiline`Dabar International Christian Centre (DICC) has been operating in the country since 1990 even before it became a registered entity.\n\nOver the years, the Foundation has grown tremendously with great successes in organized village outreaches, conferences, and countless of non-profit initiatives to the benefit of humanity. The foundation has great advantage as a non-denominational group, covering different local churches, denominations and non-denominational assemblies spread across the length and breadth of the nation.`,
     cta: {
-      as: 'a',
+      to: 'about',
+      childer: 'about',
       label: 'Learn more',
-      href:
-        '#',
+      
     },
     features: [
       {

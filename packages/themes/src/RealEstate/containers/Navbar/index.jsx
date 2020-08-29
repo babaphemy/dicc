@@ -10,7 +10,7 @@ import Box from '@pagerland/common/src/components/Box';
 import List from '@pagerland/common/src/components/List';
 import Button from '@pagerland/common/src/components/Button';
 import NavbarWrapper from '@pagerland/common/src/components/Navbar';
-
+import clogo from '@pagerland/themes/src/RealEstate/assets/logo.png';
 import useActiveIndicator from '@pagerland/common/src/hooks/useActiveIndicator';
 import useIsWindowScrollMoreThan from '@pagerland/common/src/hooks/useIsWindowScrollMoreThan';
 
@@ -92,7 +92,8 @@ const Navbar = ({
             <Box flexBox alignItems="center">
               {Logo && (
                 <LogoWrapper {...LogoProps}>
-                  <Logo />
+                  <img src={clogo} alt="dicc-logo" width="100" height="50" />
+                  {/* <Logo /> */}
                 </LogoWrapper>
               )}
               <Box {...MenuItemsListProps} ref={ref}>

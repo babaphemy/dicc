@@ -3,11 +3,11 @@ import { css } from 'styled-components';
 export const space = [0, 4, 8, 16, 32, 64];
 
 export const colors = {
-  brand: '#FFD600',
+  brand: '#007DCC',
   error: '#EB5757',
-  success: '#27AE60',
+  success: '#007dcc',
   shades: {
-    brand: ['#F0B400', '#F7C600', '#FFD600', '#FFE14D', '#FFE873'],
+    brand: ['#3E3D81', '#EB3237', '#3E3D81', '#3e3d81', '#ec3235'],
   },
   gray: ['#262522', '#5C5B57', '#ADADAB', '#E0E0DF', '#EBEAEA', '#F9F9F9', '#FFFFFF'],
 };

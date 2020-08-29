@@ -29,7 +29,7 @@ const RealEstate = ({ url }) => (
     <SEO title="DICC" />
 
     <Navbar />
-    <Welcome name="" />
+    <Welcome name="home" />
     <About name="about" />
     <Interior name="interior" />
     <Surroundings name="surroundings" />

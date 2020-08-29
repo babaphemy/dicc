@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Fade from 'react-reveal/Fade';
-
+import { Link } from 'react-scroll';
 import Box from '@pagerland/common/src/components/Box';
 import Container from '@pagerland/common/src/components/Container';
 import Typography from '@pagerland/common/src/components/Typography';
@@ -155,6 +155,7 @@ Footer.defaultProps = {
     mb: 4,
   },
   CtaProps: {
+    as: Link,
     variant: 'link',
     icon: ArrowRight,
   },
