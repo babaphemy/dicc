@@ -561,7 +561,7 @@ export default {
       info: [
         {
           icon: User,
-          text: 'Ojelabi Babatunde',
+          text: 'Alawiye Samuel',
         },
         {
           icon: Building,
@@ -573,7 +573,7 @@ export default {
         },
         {   
           icon: Phone,
-          text: '+234 08033338227',
+          text: '+234 08033338227, +234 08095277708',
         },
         {
           icon: Envelope,
