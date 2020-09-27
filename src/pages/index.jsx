@@ -12,7 +12,7 @@ import {
   Surroundings,
   Gallery,
   Contact,
-  Footer,
+  Footer,Location, Exterior
 } from '@pagerland/themes/src/RealEstate/containers';
 
 import preview from '@pagerland/themes/src/RealEstate/assets/preview.jpg';
@@ -32,6 +32,9 @@ const RealEstate = ({ url }) => (
     <Welcome name="home" />
     <About name="about" />
     <Interior name="interior" />
+    <Exterior name="donate" />
+    <Location name="location" />
+  
     <Surroundings name="surroundings" />
     <Gallery name="gallery" />
     <Contact name="contact" />

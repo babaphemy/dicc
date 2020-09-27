@@ -6,7 +6,6 @@ import Fade from 'react-reveal/Fade';
 import Box from '@pagerland/common/src/components/Box';
 import Typography from '@pagerland/common/src/components/Typography';
 
-import Button from '@pagerland/common/src/components/Button';
 import ArrowRight from '@pagerland/icons/src/line/ArrowRight';
 import data from '../../data';
 import { StyledGrid, StyledImg } from './styled.components';
@@ -29,11 +28,26 @@ const Surroundings = ({
           <StyledImg {...ImgProps} {...section.ImgProps} />
           <Box {...CaptionProps}>
             <Fade cascade bottom duration={600}>
+
               <Typography {...TitleProps}>{section.title}</Typography>
-              <Typography {...TextProps}>{section.text}</Typography>
-              <Button {...CtaProps} {...section.cta}>
+              {section.title.startsWith('MINISTRIES') ? <Typography {...TextProps}><li>Worship (Choir, Worship Team, Music)</li>
+              <li>Helps ( Ushers, Protocol, Greeters and Welfare)</li>
+              <li>Home cell / Care group</li>
+              <li>Media </li>
+              <li>Publicity</li>
+              <li>Medical </li>
+              <li>Shining Stars (Children)</li>
+              <li>Teenagers</li>
+              <li>Youth </li>
+              <li>Discipleship </li>
+              <li>Missions & Outreach</li>
+              <li>Men & Women’s Fellowship</li>
+              <li>Follow-up and Visitation </li>
+              </Typography> : <Typography {...TextProps}>{section.text}</Typography> }
+                            
+              {/* <Button {...CtaProps} {...section.cta}>
                 {section.cta.label}
-              </Button>
+              </Button> */}
             </Fade>
           </Box>
         </React.Fragment>

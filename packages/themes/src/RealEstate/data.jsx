@@ -45,10 +45,7 @@ import about3 from './assets/about/about-3.jpg';
 import aboutLarge3 from './assets/about/about-huge-3.jpg';
 import about32x from './assets/about/about-3@2x.jpg';
 
-import exterior1 from './assets/exteriors/exterior-1.jpg';
-import exterior12x from './assets/exteriors/exterior-1@2x.jpg';
-import exterior2 from './assets/exteriors/exterior-2.jpg';
-import exterior22x from './assets/exteriors/exterior-2@2x.jpg';
+import exterior1 from './assets/exteriors/offering.jpg';
 
 import interior1 from './assets/interiors/interior-1.jpg';
 import interior2 from './assets/interiors/interior-2.jpg';
@@ -120,7 +117,7 @@ export default {
       {
         to: 'interior',
         'data-to': 'interior',
-        label: 'Projects',
+        label: 'Our Creed',
       },
       {
         to: 'surroundings',
@@ -140,8 +137,8 @@ export default {
     ],
     actions: [
       {
-        href:
-          '',
+        to: 'donate',
+        'data-to':  'donate',
         label: 'Donate',
       },
     ],
@@ -186,9 +183,9 @@ export default {
     },
   },
   about: {
-    title: 'Dabar International Christian Centre (DICC) has been operating in the country since 1990 even before it became a registered entity',
+    title: 'Welcome to Dabar International Christian Centre (DICC)',
     text:
-      'Over the years, the Foundation has grown tremendously with great successes in organized village outreaches, conferences, and countless of non-profit initiatives to the benefit of humanity. The foundation has great advantage as a non-denominational group, covering different local churches, denominations and non-denominational assemblies spread across the length and breadth of the nation. Whereas, the primary objective of DICC is to share God’s love in Christ Jesus with all men through preaching, teaching and healing ministries, we also engage in social work to the socially marginalized and provide relief to people in adverse situations.',
+      '‘Dabar’ is a Hebrew word for prophetic word or divine word. We are a people who love God passionately and love people unreservedly. Our anchor is Jesus Christ, the One from whom abundant life flows. We have a dream tagged “Mission Alfa”. Alfa is an acronym which stands for “Abundant Life for All.” Our sincere desire is to see everyone who comes in contact with DICC have a kingdom experience of spiritual rebirth climaxing in abundant life (John 10:10b). Dabar International Christian Centre is gifted with a dynamic man of God, Rev’d Sam Alawiye. A practical teacher and fiery preacher of the Word. He has a unique prophetic unction our generation yearns for. As he is on the pulpit, so he is in his public and private life style. The president of The Sam Alawiye Ministries based in Ibadan, Nigeria from where his ministry blesses humanity throughout the world. God’s desire is for everyone to have abundant life. In Dabar International Christian Centre (DICC), there’s a near heaven worship experience, fellowship, love, prayer, sound doctrine and abundant life for all. Dabar International Christian Center (DICC) is blessed with an anointed Praise Worship leader, Pastor Moji Alawiye fondly called PMA. She’s the lovely wife of Rev’d Sam Alawiye. A foremost gospel music minister locally and internationally. An author, song writer, and TV personality whose ministry has spread to Europe, United Kingdom and North America. And to crown it is the Spirit-filled DICC choir, vibrant, dynamic and on point! At DICC, we uphold realism as we take religion out of Christianity and present the reality of Jesus Christ to the world. Also, there are no distinctions; we have a strong family bond and everybody is unique in God’s presence. Come and see God’s marvellous works at DICC and witness a mind blowing turnaround in your life. We eagerly look forward to hearing testimonies of what God is doing in your life!.',
     gallery: [
       {
         source: aboutLarge1,
@@ -218,9 +215,9 @@ export default {
     }
   },
   location: {
-    title: textToMultiline`Incredible location.\nSo close to all ammenities.`,
+    title: textToMultiline`Support DICC.\nDonate using the details below.`,
     text:
-      'Integer vulputate turpis nisl, non auctor sapien accumsan semper. Praesent in pulvinar nisl. Nullam turpis sem, commodo vel congue accumsan, finibus ut nulla. Nunc a efficitur massa. Nulla viverra tincidunt felis, vel sodales metus maximus et. Suspendisse potenti. Donec tincidunt leo nisi, vitae rhoncus neque accumsan vitae.',
+      textToMultiline`Account Name: Dabar International Christian Centre \n Bank: Zenith Bank \n Account Number: 1016560186.`,
     counters: [
       {
         IconProps: {
@@ -305,8 +302,8 @@ export default {
     ],
     map: {
       cords: {
-        lat: 37.550705,
-        lng: -121.980674,
+        lat: 7.496477,
+        lng: 3.910845,
       },
     },
   },
@@ -315,21 +312,12 @@ export default {
       {
         ImgProps: {
           src: exterior1,
-          srcSet: `${exterior1} 1x, ${exterior12x} 2x`,
+          srcSet: `${exterior1} 1x`,
         },
-        title: 'Modern an minimalistic exterior design',
-        text:
-          'Vestibulum sit amet consequat lacus. Nulla dapibus dignissim massa, quis mattis ante tempor in. Morbi mollis nibh dictum, eleifend tellus quis, lobortis ex. Donec tempor, massa in consequat pellentesque, nunc arcu tempus ex, nec accumsan sem augue eget urna.',
+        title: 'Support DICC',
+        text: textToMultiline`Accout Name: Dabar International Christian Centre \n Bank: Zenith Bank PLC \n Account Number: 1016560186`,
       },
-      {
-        ImgProps: {
-          src: exterior2,
-          srcSet: `${exterior2} 1x, ${exterior22x} 2x`,
-        },
-        title: 'Pure harmony between space and function',
-        text:
-          'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus. In consectetur velit est.',
-      },
+     
     ],
   },
   interior: {
@@ -357,9 +345,11 @@ export default {
             srcSet: `${gallery1} 1x, ${gallery1} 2x`,
           },
         ],
-        title: 'Interdenominational Faith Meeting',
-        text:
-          'Ibadan interdenominational faith meeting 2020.',
+        title: "Dabar's Creed",
+        text: textToMultiline
+          `Bless the Lord oh my soul and all that is within me bless His holy name. There is a river whose stream makes glad the city of God that river flows over my soul. The peace of God that passeth all understanding is my portion forever.\n
+          I shall be like a tree planted by the rivers of water, I will bring forth fruit in season and out of season, whatsoever I do, I shall prosper. My leaves shall not fail and my leaves shall not wither in Jesus name.\n
+          The most high God is by my side, I shall not fear what man can do unto me. Thousand may fail at my side and ten thousand at my right hand side it shall not come near me only with my eyes will I see the reward of the wicked. My defense is in-penetrable, the glory of God shall defend me all the days of my life. When others are saying there is a casting down for them, then I will arise and say there is a lifting up for me. My future is great and my tomorrow shall be alright.`,
       },
       {
         slides: [
@@ -384,9 +374,11 @@ export default {
             srcSet: `${gallery14} 1x, ${gallery14} 2x`,
           },
         ],
-        title: 'Youth Intitiatives Operation ALFA',
-        text:
-          'Operation ALFA: Abundant Life for All. A program aimed at discovering, transforming and developing youths and vulnerable people in Oyo state, Nigeria',
+        title: "Dabar's Creed cont'd",
+        text: textToMultiline`I am born of God, I overcome the world, I am saved by Grace, I am washed by the blood of Jesus, I am born again by the spirit of God, my names are written in the book of Life, I rejoice in my salvation.\n
+        Therefore, no shame, no failure, no accident, no breaking in or breaking out, no calamity, no evil, no death, will come near our church family in Jesus name. This confession is by the decree of watchers and the sentences by the word of the Holy One in order that the living may know that the Most High rules in the affairs of men.\n
+        Beautiful people like me are here in DICC
+        `,
       },
     ],
   },
@@ -397,9 +389,9 @@ export default {
           src: surrounding1,
           srcSet: `${gallery9} 1x, ${gallery9} 2x`,
         },
-        title: 'Music and Drama Ministry',
+        title: 'MINISTRIES AND DEPARTMENTS OF DABAR INTERNATIONAL CHRISTIAN CENTRE',
         text:
-          'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
+          " Worship (Choir, Worship Team, Music) *	Helps ( Ushers, Protocol, Greeters and Welfare) \n 	Home cell / Care group 	Media 	Publicity 	Medical 	Shining Stars (Children) 	Teenagers 	Youth 	Discipleship 	Missions & Outreach 	Men & Women’s Fellowship 	Follow-up and Visitation ",
         cta: {
           as: 'a',
           label: 'Learn more',
@@ -412,12 +404,12 @@ export default {
           src: surrounding2,
           srcSet: `${gallery10} 1x, ${gallery10} 2x`,
         },
-        title: 'Youth Ministry',
+        title: 'YOUTH MINISTRY',
         text:
-          'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
+          "Investing in today's youth is very important to us in growing the body of Christ. Teaching them to grow in their relationship with the Lord, prepares them to serve Christ in all they do in turns nurturing the congregation and allow the Church to flourish.",
         cta: {
           as: 'a',
-          label: 'Learn more',
+          label: '',
           href:
             '#',
         },
@@ -427,14 +419,14 @@ export default {
           src: surrounding3,
           srcSet: `${gallery12} 1x, ${gallery12} 2x`,
         },
-        title: 'Evangelism & Soul Winning',
+        title: 'CHOIR DEPARTMENT - TRIBE OF JUDAH (TOJ)',
         text:
-          'Curabitur porttitor ligula ut aliquam egestas. Fusce orci ipsum, gravida vel dapibus nec, interdum nec dui. Vestibulum sed porttitor est. Nullam sollicitudin, odio vel mattis bibendum, ligula nisl faucibus libero, vitae tempus dui orci in purus.',
+          "Tribe of Judah (TOJ) as a department in Dabar International Christian Centre is a group of singers of the church with a profound passion for the gospel of Jesus Christ and a desire that His message be heard throughout the four corners of the earth. They are also known to be the praise and worship team. They lead the congregation with a powerful praise and worship, hymns and special numbers in all our services. This team is very essential for the growth of the ministry. TOJ sings beautiful and challenging music to praise God and edify the congregation. Through their ministrations, people experience true: • Healing • Peace • Joy • Freedom • A deep relationship with Christ. They have organized and hosted various concerts, trainings, and teachings. The team is comprised of committed and devoted males and females from all walks of life. ",
         cta: {
-          as: 'a',
-          label: 'Learn more',
+          as: '',
+          label: '',
           href:
-            '#',
+            '',
         },
       },
     ],
@@ -783,9 +775,9 @@ export default {
         IconProps: {
           icon: TagAlt,
         },
-        title: 'Raising Champions',
+        title: 'Our Vision',
         text:
-          'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
+          'Dabar International Christian Centre (DICC) exists to be a vibrant, loving and transforming church with a passion to see all nations enjoy abundant life in Jesus Christ.',
       },
       {
         IconProps: {
@@ -793,23 +785,23 @@ export default {
         },
         title: 'Building leaders',
         text:
-          'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
+          'Spiritual integrity and faith is our first concern as an church, we dont just stand on decision to believe but on discipleship, so as to develop leaders to embrace and advance the true faith of Jesus in a hostile world',
       },
       {
         IconProps: {
           icon: ShieldCheck,
         },
-        title: 'Spiritual Upliftment',
+        title: 'Our Mission',
         text:
-          'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
+          'To give the cities and nations abundant life through sound teaching, relational evangelism and contagious Christian lifestyle – Matthew.5:16.',
       },
       {
         IconProps: {
           icon: Award,
         },
-        title: 'BibleBelieving',
+        title: 'Our Mandate',
         text:
-          'Proin at convallis felis, sit amet varius velit. Aenean placerat turpis a libero feugiat, at iaculis elit faucibus.',
+          'To be the penetrating voice of God to the nations for radical change, a shining light in dark small corners and everywhere...',
       },
     ],
     socialLinks: [

@@ -4,7 +4,6 @@ import classNames from 'classnames';
 
 import { Link } from 'react-scroll';
 import { smoothLinkProps } from '@pagerland/common/src/utils';
-
 import Container from '@pagerland/common/src/components/Container';
 import Box from '@pagerland/common/src/components/Box';
 import List from '@pagerland/common/src/components/List';
@@ -111,7 +110,9 @@ const Navbar = ({
           </Container>
         </Wrapper>
       )}
+
     </NavbarWrapper>
+      
   );
 };
 
@@ -237,6 +238,8 @@ Navbar.defaultProps = {
     py: 12,
     px: 24,
     ml: 3,
+    as: Link,
+    ...smoothLinkProps,
   },
   Logo: LanderPagerLogo,
   ...data.navbar,
